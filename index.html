@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz ME</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="./main.js" defer></script>
+
+</head>
+<body>
+    <main>
+            
+        <img class="logo" src="./assests/logo 1.svg" alt="">
+
+        <div class="screen1 hide">
+
+            <img class="arrow"src="./assests/arrow.svg" alt="">
+
+            <form class="register">
+                <h1>
+                    Cadastre-se rapidamente!
+                </h1>
+
+                <div class="input-wrapper">
+                    <input type="text" id="name" placeholder="Nome" required>
+                </div>
+
+                <div class="input-wrapper">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-wrapper">
+                    <input type="password" id="password" placeholder="Senha" required>
+                </div>
+
+                <div class="input-wrapper">
+                    <input type="password" id="password" placeholder="Confirme sua senha" required>
+                </div>
+
+                <button>Cadastre-se</button>
+            </form>
+        </div>
+
+        <div class="screen2">
+            <form class="login">
+                <h1>Faça Login</h1>
+
+                <div class="input-wrapper">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+
+                <div class="input-wrapper">
+                    <input type="password" id="password" placeholder="Senha" required>
+                </div>
+                
+                <button class="log">Logar no Quizz Me!</button>
+            </form>
+
+            <p>OU</p>
+
+            <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fwww.google.com%2Fwebhp%3Fhl%3Dpt-BR%26sa%3DX%26ved%3D0ahUKEwjvtqWiobSBAxUPILkGHRflA90QPAgJ&ec=GAlAmgQ&hl=pt-BR&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S-888185634%3A1695043547708220&theme=glif" target="_blank"><button  class="google"><img class="fig-google" src="./assests/logo-google.svg" alt=""> <p>Conectar com o Google</p> </button></a>
+            
+
+            <a href="https://www.facebook.com/" target="_blank"><button class="facebook"><img class="fig-face" src="/assests/logo-face.svg" alt=""> <p>Conectar com o Facebook</p> </button>
+            </a>
+            
+            <p>OU</p>
+
+            <h2 class="sing-up">Crie uma conta</h2>
+
+        </div>
+    </main>
+</body>
+</html>
