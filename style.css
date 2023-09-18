@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --bg-body:#333B65;
+    --bg-button:#FFC90B;
+    --bg-input:#F1F6FB;
+
+    --fc-input:#020A32;
+    --fc-heading:#F1F6FB;
+    --fc-button:#5970E7;
+
+    --fs-heading:4.2rem;
+    --fs-input:2.8rem;
+    --fs-button:3rem;
+   
+}
+.hide{
+    display: none;
+}
+body{
+   /* */
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: var(--bg-body);
+}
+
+main{
+    display: inline-flex;
+    align-items: center;
+    gap: 24rem;
+    height: 100vh;
+    position: relative;
+
+}
+
+
+/*screen1*/
+
+ .logo{
+    padding: 0 0 0 27.4rem;
+
+}
+
+.arrow{
+    position: absolute;
+    top: 21rem;
+    left: 14.1rem;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    transform: scale(1.2);
+}
+
+.register{
+    max-width: 40rem;
+    height: 52.2rem;
+
+}
+
+form h1{
+    font-size:  var(--fs-heading);
+    color: var(--fc-heading);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3.4rem;
+}
+
+.input-wrapper input{
+    font-size: var(--fs-input);
+    color: var(--fc-input);
+    font-weight: 400;
+    line-height: normal;
+    height: 7rem;
+    background-color: var(--bg-input);
+    border-radius: 10px;
+
+    margin-bottom: 2rem;
+
+    padding: .9rem 2.95rem;
+
+    border: none;
+
+
+}
+.input-wrapper input:focus{
+    border: 2px solid #020A32;
+}
+
+button{
+    font-size: var(--fs-button);
+    color: var(--fc-button);
+    font-weight: 700;
+    text-align: center;
+
+    background-color: var(--bg-button);
+    width: 40rem;
+    height: 7.3rem;
+
+    margin-top: 1.4rem;
+
+    border: none;
+
+    cursor: pointer;
+    border-radius: 1rem;
+
+}
+
+button:hover{
+    background-color: #cfa304;
+}
+
+/*Screen2*/
+
+.screen2{
+    max-width: 40rem;
+    height: 65rem;
+
+}
+.log{
+    margin-top: -.4rem;
+}
+p{
+    color: var(--fc-heading);
+    font-family:'Bangers', cursive;
+    text-align: center;
+    font-size: 2.2rem;
+    margin: 1.5rem 0;
+}
+
+.google{
+    position: relative;
+    margin-bottom: 2rem;
+    
+}
+
+.google p{
+    color: #EA4335;
+    font-weight: 400;
+    padding-left: 1rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    align-items: center;
+    font-family: var(--fc-input);
+}
+
+.fig-google{
+    width: 3.4rem;
+    height: 3.4rem;
+    position:absolute;
+    left: 2.4rem;
+    top: 1.8rem;
+}
+
+.facebook{
+    position: relative;
+}
+.facebook p{
+    font-weight: 400;
+    position: relative;
+    padding-left: 1rem;
+    color:#475993;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: var(--fc-input);
+}
+
+.fig-face{
+    width: 4.6rem;
+    height: 5.5rem;
+    position: absolute;
+    left: 1.8rem;
+    top: .7rem;
+}
+
+h2{
+    color: var(--Branco, #F1F6FB);
+    text-align: center;
+    text-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    font-size: 4.6rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+h2:hover{
+    transform: scale(1.2);
+}
